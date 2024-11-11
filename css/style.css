@@ -17,6 +17,13 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/*---------------
+      DEBUG
+----------------*/
+section {
+    padding: 30px;
+}
+
 /*--------------
     HEADER
 ---------------*/
@@ -27,28 +34,70 @@ margin-right: auto;
 }
 
 .header-bottom {
-    background-color: #00008b;
+    background-color: blue;
     padding: 30px;
 }
 
 .header-top > .container {
     display: flex;
     background-color: #daa520;
-}
-
-.header-top > .container {
-    border: 1px dashed black;
+    border: dashed black;
+    max-width: 1200px;
 }
 
 .header-top .logo, .header-top .login {
     width: 20%;
 }
 
-.header-top .login {
-text-align: right;
-}
 
 .header-top .login {
-    width: 60%;
-    text-align: center;
+    width: 20%;
+    text-align: right;
+}
+
+.header-bottom > .container {
+    border: dashed black;
+}
+
+.header-bottom .jumbo {
+    background-color: salmon;
+    max-width: 1200px;
+    min-height: 400px;
+}
+
+.main-top {
+    background-color: white;
+    padding: 30px;
+}
+
+.main-top > .container {
+border: dashed black;
+min-height: 500px;
+display: flex;
+}
+
+.main-middle {
+background-color: gray;
+padding: 30px;
+}
+
+.main-middle > .container {
+    border: dashed black;
+    display: flex;
+    min-height: 500px;
+}
+
+
+.col-big {
+width: 60%;
+max-width: 1200px;
+background-color: aquamarine;
+border-right: dashed black;
+}
+
+.col-small {
+width: 40%;
+max-width: 1200px;
+background-color: hotpink;
+border-left: dashed black;
 }
