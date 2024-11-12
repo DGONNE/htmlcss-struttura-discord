@@ -24,6 +24,18 @@ section {
     padding: 30px;
 }
 
+.col-big {
+    width: 60%;
+max-width: 1200px;
+background-color: aquamarine;
+}
+
+.col-small {
+    width: 40%;
+max-width: 1200px;
+background-color: hotpink;
+}
+
 /*--------------
     HEADER
 ---------------*/
@@ -89,15 +101,27 @@ padding: 30px;
 
 
 .col-big {
-width: 60%;
-max-width: 1200px;
-background-color: aquamarine;
 border-right: dashed black;
 }
 
 .col-small {
-width: 40%;
-max-width: 1200px;
-background-color: hotpink;
 border-left: dashed black;
+}
+
+
+
+.main-bottom {
+    background-color: gray ;
+    padding: 30px;
+}
+
+.main-bottom > .container {
+    border: dashed black;
+}
+
+.main-bottom .square {
+    background-color: green;
+    max-width: 1200px;
+    min-height: 500px;
+
 }
