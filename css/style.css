@@ -149,3 +149,17 @@ footer {
     background-color: aqua;
     border: dashed white;
 }
+
+.footer-bottom > .container {
+    display: flex;
+    background-color: aqua;
+    min-height: 80px;
+}
+
+.button {
+    align-items: end;
+}
+
+.logo-footer {
+    justify-content: space-between;
+}
