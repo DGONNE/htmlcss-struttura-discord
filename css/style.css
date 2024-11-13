@@ -125,3 +125,27 @@ border-left: dashed black;
     min-height: 500px;
 
 }
+
+footer {
+    background-color: black;
+    padding: 30px;
+}
+
+.footer-top > .container {
+    border: dashed black;
+    max-width: 1200px;
+    min-height: 400px;
+    display: flex;
+}
+
+.col-main {
+    width: 40%;
+    background-color: palevioletred;
+    border: dashed black;
+}
+
+.col-side {
+    width: 15%;
+    background-color: aqua;
+    border: dashed white;
+}
